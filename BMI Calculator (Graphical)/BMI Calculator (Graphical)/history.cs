@@ -31,7 +31,7 @@ namespace BMI_Calculator__Graphical_
         private void button3_Click(object sender, EventArgs e)
         {
             Form1 obj = new Form1();
-            this.Hide();
+            this.Close(); //if you hide it, will remain in the memory. but if you close it, will be flushed out.
             obj.Show();
         }
     }
